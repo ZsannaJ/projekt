@@ -1,0 +1,31 @@
+
+<div class="oldal">
+    <div class="card" *ngFor="let obj of shopObject">
+        <mat-card fxLayout fxLayoutGap="20px">
+            <span>
+            <mat-card-header>
+                <mat-card-title>
+                    <img class="img" [src]="obj.source" />
+                </mat-card-title>
+            </mat-card-header>
+            </span>
+            <span>
+            <mat-card-content>
+                <div class="name">{{obj.name}}</div>
+                <div class="desc">{{obj.description}}</div>
+                <div class="rate" *ngIf="obj.rating === '5'"><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ></div>
+                <div class="rate" *ngIf="obj.rating === '4'"><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ></div>
+                <div class="rate" *ngIf="obj.rating === '3'"><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ><img class="star" src="assets/star.png" ></div>
+                <div class="price">{{obj.price}}</div>
+            </mat-card-content>
+        
+            <mat-card-actions>
+                <div mat-raised-button color="primary" (click)="addToCart()"><button>Kosárba</button></div>
+            </mat-card-actions>
+            </span>
+        </mat-card>      
+    </div>
+</div>
+
+
+

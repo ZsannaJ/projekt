@@ -1,0 +1,39 @@
+.oldal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.main{
+    background-color: #3F51B5;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    font-size: 30px;
+    padding-top: 200px;
+
+    width: 100%;
+    height: 400px;
+    transition: background-color 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    position: relative;
+    display: inline-block;
+}
+
+.main:hover{    
+    
+    background-color: #3F11B5;
+
+}
+
+.main h1{
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}

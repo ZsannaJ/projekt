@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "projekt-4b1d7": {
+      "hosting": {
+        "projekt": [
+          "projekt-4b1d7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "projekt-4b1d7"
+  }
+}

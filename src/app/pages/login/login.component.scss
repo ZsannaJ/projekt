@@ -1,0 +1,49 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.main_component {
+    height: 50vh;
+    align-items: center;
+}
+
+span {
+    padding: 5px 5px 5px 5px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  button{
+    width: 200px;
+  }
+
+  mat-form-field{
+    width: 40%;
+
+  }
+
+  h1{
+    color: #3F51B5;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  mat-card{
+    align-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }

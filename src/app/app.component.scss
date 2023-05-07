@@ -1,0 +1,26 @@
+.mainComponent{
+    height: 300px;
+}
+a{
+    color: white;
+
+    transition: color 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: font-size 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover, a:active{
+    color: #3F11B5;
+    font-size: 22px;
+}
+
+.navigationitems{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+mat-sidenav{
+    width: 250px;
+}

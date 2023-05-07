@@ -1,0 +1,102 @@
+.oldal{
+    background-color: #3F51B5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+
+    min-width: 880px;
+    max-width: 1480px;
+}
+
+.card{
+    background-color: #E8E8E8;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+
+    min-width: 800px;
+    max-width: 1400px;
+}
+
+
+
+.data{
+    padding-left: 100px;
+    padding-right: 100px;
+    vertical-align: top;
+}
+
+.star{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 20px;
+}
+
+.img{
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 5px;
+
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    color: #3F51B5;
+    text-shadow: black 10px;
+}
+
+.desc{
+    text-align: justify;
+
+}
+
+.price{
+    width: 100px;
+    background-color: #3F51B5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+button{
+    font-size: 30px;
+    font-weight: 800;
+
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 20px;
+
+    background-color: #3F51B5;
+    color: white;
+    border: transparent;
+
+    transition: background-color 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+button:hover{
+    background-color: #3F11B5;
+}
+
+mat-card{
+    border-radius: 30px;
+    background-color: #E8E8E8;
+}

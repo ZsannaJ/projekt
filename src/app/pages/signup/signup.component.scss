@@ -1,0 +1,57 @@
+.div-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.main_component {
+    height: 80vh;
+}
+
+form div {
+    padding: 5px 5px 5px 5px;
+}
+
+form{
+    display: grid;
+    width: 50%;
+    align-self: center;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+h1{
+    color: #3F51B5;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  button{
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 40%;
+    align-self: center;
+  }
+
+  span{
+    padding: 10px 10px 10px 10px;
+  }
+
+  mat-card{
+    align-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+

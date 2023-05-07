@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galleryImage {
+    width: 25%;
+    height: auto;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+
+
+form {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.card{
+    align-content: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+mat-form-field{
+    width: 100%;
+}
+
+mat-card-title{
+    color: #3F51B5;
+    padding-bottom: 20px;
+}
+
+mat-card-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
